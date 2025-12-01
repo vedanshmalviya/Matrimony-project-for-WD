@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+body {
+    background: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+.regi-box {
+    width: 480px;
+    background: white;
+    padding: 2.5em 3em;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+.regi-box h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.subtitle {
+    color:#5a5a5a;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.inp-grp {
+    margin-bottom: 1em;
+}
+
+.row {
+    display: flex;
+    gap: 1em;
+}
+.row, .inp-grp {
+    flex: 1;
+}
+.inp-grp label {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 0.5em;
+    display: block;
+}
+.inp-grp input,.inp-grp select {
+    width: 100%;
+    padding: 1em;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 1em;
+    transition: border 0.2s;
+    background: #fff;
+}
+.inp-grp input:focus,
+.inp-grp select:focus {
+    border-color: #d8465c;
+}
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1em;
+    margin: 0.5em 0 1.5em;
+}
+.terms input {
+    width: 16px;
+    height: 16px;
+}
+.regi-btn {
+    width: 100%;
+    padding: 1em;
+    background: #d8465c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 0.2em;
+    transition: 0.2s;
+}
+.regi-btn:hover {
+    background: #c23c52;
+}
+.have-account {
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 1em;
+    color: #494949;
+}
+.have-account a {
+    color: #d8465c;
+    text-decoration: none;
+}
+.have-account a:hover {
+    text-decoration: underline;
+}
